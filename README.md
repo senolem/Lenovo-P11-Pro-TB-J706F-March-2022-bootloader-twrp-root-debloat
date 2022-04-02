@@ -44,17 +44,17 @@
 
 10. `fastboot flash boot patched_boot.img` <- /!\ FOR TB-J706F_S630229_220312_ROW ONLY
 
-11. (If you're on a newer rom I don't know if boot.img will still be compatible, you should dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk)
+*If you're on a newer rom I don't know if boot.img will still be compatible, you should dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk*
 
-12. Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
+11. Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
 
-13. Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
+12. Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
 
-14. Hide your Magisk app in the settings
+13. Hide your Magisk app in the settings
 
-15. Add Play Store to Magisk hide list, wipe cache and data for Play Store & Google Play Services
+14. Add Play Store to Magisk hide list, wipe cache and data for Play Store & Google Play Services
 
-16. Done, you can install Netflix from Playstore and stuff, but I still get widevine L3 :/
+15. Done, you can install Netflix from Playstore and stuff, but I still get widevine L3 :/
 
 # Troubleshoot :
 
