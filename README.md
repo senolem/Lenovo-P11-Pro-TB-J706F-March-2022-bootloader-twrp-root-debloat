@@ -19,8 +19,7 @@ Download list :
 
 - Patched boot.img for TB-J706F_S630229_220312_ROW : https://www.mediafire.com/file/p3q2rpjtlqtyfpc/patched_boot.img/file
 
-
-
+Guide : 
 
 Download, unzip and rename img file to twrp.img
 
@@ -59,6 +58,7 @@ Done, you can install Netflix from Playstore and stuff, but I still get widevine
 
 
 Troubleshoot :
+
 - TWRP will ask for a password if your device has pin/pattern to unlock, disable it to get access to user data
 - wtf why my touch screen is glitched after going to TWRP? idk it's odd but just reboot and it'll be fixed
 - Play store not installing apps? Format your SD card to external storage
