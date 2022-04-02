@@ -9,7 +9,7 @@ QPST 2.7.480 (100% success rate with this version, it includes QFIL and driver, 
 
 Latest march 2022 ROM : https://mirrors.lolinet.com/firmware/lenovo/Tab_P11_Pro/TB-J706F/TB-J706F_S620150_211226_ROW.zip
 
-TWRP 3.4.2B for TB-J706F : https://www.mediafire.com/file/wdpxfr5t2z4mrye/TWRP-3.4.2B-1208-LENOVO_TBJ706F.zip/file
+TWRP 3.4.2B for TB-J706F : https://www.mediafire.com/file/wvls8y5j0xpn501/twrp.img/file
 
 SafetyNet Fix : https://github.com/kdrag0n/safetynet-fix/releases (get .zip file)
 
@@ -18,7 +18,6 @@ Magisk : https://github.com/topjohnwu/Magisk/releases (get .apk)
 Universal Android Debloater : https://github.com/0x192/universal-android-debloater/releases (get uad_gui-windows.exe, put uad_exported_selection.txt in the same folder)
 
 Patched boot.img for TB-J706F_S630229_220312_ROW : https://www.mediafire.com/file/p3q2rpjtlqtyfpc/patched_boot.img/file
-https://www.mediafire.com/file/wvls8y5j0xpn501/twrp.img/file
 
 
 
