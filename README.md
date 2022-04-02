@@ -26,12 +26,7 @@ https://www.mediafire.com/file/wvls8y5j0xpn501/twrp.img/file
 1. Enable OEM unlock in developers settings
 2. Reboot in bootloader (adb reboot bootloader)
 3. In bootloader enter :
-
-Code:
-
-fastboot flashing unlock
-
-
+`fastboot flashing unlock`
 and answer yes when you're ready
 WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!!!!
 4. Use QFIL to flash ROM
@@ -39,14 +34,11 @@ WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!!!!
 6. Install Magisk
 7. Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
 8. Enter fastboot and enter :
-
-fastboot flash recovery twrp.img
+`fastboot flash recovery twrp.img`
 
 (ONLY DO THIS IF YOU ARE ON TB-J706F_S630229_220312_ROW, I DON'T KNOW IF THIS IMAGE WILL BE COMPATIBLE FOR NEXT UPDATES)
 (If you're on a newer rom dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk)
-
-fastboot flash boot patched_boot.img 
-
+`fastboot flash boot patched_boot.img `
 
 15. Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
 17. Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
