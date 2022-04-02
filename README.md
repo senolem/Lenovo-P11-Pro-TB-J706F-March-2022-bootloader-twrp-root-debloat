@@ -5,7 +5,7 @@ Download list :
 
 Platform Tools : https://dl.google.com/android/repository/platform-tools-latest-windows.zip
 
-QPST 2.7.480 (100% success rate with this version) : https://www.mediafire.com/file/lzc0svab3iehid7/QPST_2.7.480.zip/file
+QPST 2.7.480 (100% success rate with this version, it includes QFIL and driver, install both) : https://www.mediafire.com/file/lzc0svab3iehid7/QPST_2.7.480.zip/file
 
 Latest march 2022 ROM : https://mirrors.lolinet.com/firmware/lenovo/Tab_P11_Pro/TB-J706F/TB-J706F_S620150_211226_ROW.zip
 
