@@ -42,7 +42,7 @@
 9. Go to bootloader and enter :
 `fastboot flash recovery twrp.img`
 
-10. `fastboot flash boot patched_boot.img` <- (/!\ FOR TB-J706F_S630229_220312_ROW ONLY)
+10. `fastboot flash boot patched_boot.img` <- /!\ FOR TB-J706F_S630229_220312_ROW ONLY
 
 11. (If you're on a newer rom dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk)
 
