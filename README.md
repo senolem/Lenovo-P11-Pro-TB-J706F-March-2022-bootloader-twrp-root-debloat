@@ -38,6 +38,7 @@ WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!!!!
 
 (ONLY DO THIS IF YOU ARE ON TB-J706F_S630229_220312_ROW, I DON'T KNOW IF THIS IMAGE WILL BE COMPATIBLE FOR NEXT UPDATES)
 (If you're on a newer rom dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk)
+
 `fastboot flash boot patched_boot.img `
 
 15. Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
