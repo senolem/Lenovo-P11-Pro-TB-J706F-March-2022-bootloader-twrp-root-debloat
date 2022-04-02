@@ -3,36 +3,36 @@ Guide for your new tablet :)
 
 Download list : 
 
-Platform Tools : https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+- Platform Tools : https://dl.google.com/android/repository/platform-tools-latest-windows.zip
 
-QPST 2.7.480 (100% success rate with this version, it includes QFIL and driver, install both) : https://www.mediafire.com/file/lzc0svab3iehid7/QPST_2.7.480.zip/file
+- QPST 2.7.480 (100% success rate with this version, it includes QFIL and driver, install both) : https://www.mediafire.com/file/lzc0svab3iehid7/QPST_2.7.480.zip/file
 
-Get the previous ROM, latest isn't available atm : https://mirrors.lolinet.com/firmware/lenovo/Tab_P11_Pro/TB-J706F/TB-J706F_S620150_211226_ROW.zip
+- Get the previous ROM, latest isn't available atm : https://mirrors.lolinet.com/firmware/lenovo/Tab_P11_Pro/TB-J706F/TB-J706F_S620150_211226_ROW.zip
 
-TWRP 3.4.2B for TB-J706F : https://www.mediafire.com/file/wvls8y5j0xpn501/twrp.img/file
+- TWRP 3.4.2B for TB-J706F : https://www.mediafire.com/file/wvls8y5j0xpn501/twrp.img/file
 
-SafetyNet Fix : https://github.com/kdrag0n/safetynet-fix/releases (get .zip file)
+- SafetyNet Fix : https://github.com/kdrag0n/safetynet-fix/releases (get .zip file)
 
-Magisk : https://github.com/topjohnwu/Magisk/releases (get .apk)
+- Magisk : https://github.com/topjohnwu/Magisk/releases (get .apk)
 
-Universal Android Debloater : https://github.com/0x192/universal-android-debloater/releases (get uad_gui-windows.exe, put uad_exported_selection.txt in the same folder)
+- Universal Android Debloater : https://github.com/0x192/universal-android-debloater/releases (get uad_gui-windows.exe, put uad_exported_selection.txt in the same folder)
 
-Patched boot.img for TB-J706F_S630229_220312_ROW : https://www.mediafire.com/file/p3q2rpjtlqtyfpc/patched_boot.img/file
+- Patched boot.img for TB-J706F_S630229_220312_ROW : https://www.mediafire.com/file/p3q2rpjtlqtyfpc/patched_boot.img/file
 
 
 
-- Download, unzip and rename img file to twrp.img
-- Enable OEM unlock in developers settings
-- Reboot to bootloader (adb reboot bootloader)
-- In bootloader enter :
+Download, unzip and rename img file to twrp.img
+Enable OEM unlock in developers settings
+Reboot to bootloader (adb reboot bootloader)
+In bootloader enter :
 `fastboot flashing unlock`
 and answer yes when you're ready
 WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!
-- Use QFIL to flash ROM
-- Do initial setup. DO NOT RESTORE
-- Install Magisk
-- Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
-- Go to bootloader and enter :
+Use QFIL to flash ROM
+Do initial setup. DO NOT RESTORE
+Install Magisk
+Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
+Go to bootloader and enter :
 
 `fastboot flash recovery twrp.img`
 
@@ -41,11 +41,11 @@ WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!
 
 `fastboot flash boot patched_boot.img `
 
-- Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
-- Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
-- Hide your Magisk app in the settings
-- Add Play Store to Magisk hide list, wipe cache and data for Play Store & Google Play Services
-- Done, you can install Netflix from Playstore and stuff, but I still get widevine L3 :/
+Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
+Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
+Hide your Magisk app in the settings
+Add Play Store to Magisk hide list, wipe cache and data for Play Store & Google Play Services
+Done, you can install Netflix from Playstore and stuff, but I still get widevine L3 :/
 
 
 Troubleshoot :
