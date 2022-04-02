@@ -21,6 +21,7 @@ Download list :
 
 
 
+
 Download, unzip and rename img file to twrp.img
 
 Enable OEM unlock in developers settings
