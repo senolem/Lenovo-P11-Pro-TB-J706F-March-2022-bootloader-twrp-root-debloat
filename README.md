@@ -22,29 +22,38 @@ Download list :
 
 
 Download, unzip and rename img file to twrp.img
-Enable OEM unlock in developers settings
-Reboot to bootloader (adb reboot bootloader)
-In bootloader enter :
-`fastboot flashing unlock`
-and answer yes when you're ready
-WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!
-Use QFIL to flash ROM
-Do initial setup. DO NOT RESTORE
-Install Magisk
-Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
-Go to bootloader and enter :
 
+Enable OEM unlock in developers settings
+
+Reboot to bootloader (adb reboot bootloader)
+
+In bootloader enter :
+`fastboot flashing unlock`  <- WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!
+
+and answer yes when you're ready
+
+Use QFIL to flash ROM
+
+Do initial setup. DO NOT RESTORE
+
+Install Magisk
+
+Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
+
+Go to bootloader and enter :
 `fastboot flash recovery twrp.img`
 
-(ONLY DO THIS IF YOU ARE ON TB-J706F_S630229_220312_ROW, I DON'T KNOW IF THIS IMAGE WILL BE COMPATIBLE FOR NEXT UPDATES)
+`fastboot flash boot patched_boot.img` <- (ONLY DO THIS IF YOU ARE ON TB-J706F_S630229_220312_ROW, I DON'T KNOW IF THIS IMAGE WILL BE COMPATIBLE FOR NEXT UPDATES)
 (If you're on a newer rom dump boot.img yourself through TWRP (adb shell and dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img", patch the image with Magisk)
 
-`fastboot flash boot patched_boot.img `
-
 Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
+
 Open UAD and uninstall the selection, there will be remaining bloats but I wasn't able to find them in UAD
+
 Hide your Magisk app in the settings
+
 Add Play Store to Magisk hide list, wipe cache and data for Play Store & Google Play Services
+
 Done, you can install Netflix from Playstore and stuff, but I still get widevine L3 :/
 
 
