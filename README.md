@@ -23,7 +23,7 @@ Patched boot.img for TB-J706F_S630229_220312_ROW : https://www.mediafire.com/fil
 
 - Download, unzip and rename img file to twrp.img
 - Enable OEM unlock in developers settings
-- Reboot in bootloader (adb reboot bootloader)
+- Reboot to bootloader (adb reboot bootloader)
 - In bootloader enter :
 `fastboot flashing unlock`
 and answer yes when you're ready
@@ -32,7 +32,7 @@ WARNING: UNLOCK BOOTLOADER WILL WIPE YOUR DEVICE!!
 - Do initial setup. DO NOT RESTORE
 - Install Magisk
 - Update to latest ota through settings (TB-J706F_S630229_220312_ROW), reboot
-- Enter fastboot and enter :
+- Go to bootloader and enter :
 
 `fastboot flash recovery twrp.img`
 
