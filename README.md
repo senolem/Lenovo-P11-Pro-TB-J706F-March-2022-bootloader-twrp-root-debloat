@@ -44,13 +44,13 @@
 
 10. `fastboot flash boot patched_boot.img` <- /!\ FOR TB-J706F_S630229_220312_ROW ONLY
 
-
+<br>
 *If you're on a newer rom I don't know if boot.img will still be compatible, you should dump boot.img yourself through TWRP*
 
 (adb shell and `dd if="/dev/block/bootdevice/by-name/boot_b" of="/sdcard/boot.img"`) 
 
 *then patch the image with Magisk*
-
+<br>
 
 11. Reboot, enable Zygisk in Magisk settings and install safetynet fix in Magisk, reboot
 
